@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   # 需要包含的头文件
-s.source_files = "myClass/UMCommon.framework/Versions/A/Headers/*"
+# s.source_files = "myClass/UMCommon.framework/Versions/A/Headers/*"
   # 你的SDK路径
 s.vendored_frameworks = "myClass/UMCommon.framework"
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
