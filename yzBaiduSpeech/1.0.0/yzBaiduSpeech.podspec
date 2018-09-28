@@ -113,7 +113,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.resources = "BDSClientResource/**/*"
+  s.resources = "BDSClientResource/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
   s.preserve_paths = "BDSClientHeaders","BDSClientResource"
